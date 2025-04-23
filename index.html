@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mero nani ko lagi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>I Love You!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Dear Riya,</h2>
+            <p>You make my day shine make my life complete hehhehe!</p>
+            <p>I love you forever and ever and ever and everrrrrrrrr.</p>
+            <p>You make my day special!</p>
+            <button id="surpriseButton">Click for a Surprise!</button>
+            <p id="surpriseMessage" style="display: none;">🎉 I am proud of you baby🎉</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Yours Suhan,</p>
+    </footer>
+
+    <script>
+        // JavaScript to handle the surprise message
+        document.getElementById('surpriseButton').addEventListener('click', function() {
+            document.getElementById('surpriseMessage').style.display = 'block';
+            this.style.display = 'none'; // Hide the button after clicking
+        });
+    </script>
+</body>
+</html>
